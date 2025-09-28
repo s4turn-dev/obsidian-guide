@@ -31,41 +31,41 @@ inline стилизация:
 ``` 
 
 Результат:
-![[Продвинутый-Markdown_callouts_info_1.png]]
+![Продвинутый-Markdown_callouts_info_1.png](../misc/img/Продвинутый-Markdown_callouts_info_1.png)
 Самая первая строка становится заголовком блока, а `[!info]` в начале – префикс,
 определяющий, как блок будет выделен (иконка и цвет). Всего есть 12 префиксов:
 
 - `abstract`, `summary`, `tldr`
 
-![[Продвинутый-Markdown_callouts_summary.png]]
+![Продвинутый-Markdown_callouts_summary.png](../misc/img/Продвинутый-Markdown_callouts_summary.png)
 
 - `info`, `todo`
 
-![[Продвинутый-Markdown_callouts_info_2.png]]
+![Продвинутый-Markdown_callouts_info_2.png](../misc/img/Продвинутый-Markdown_callouts_info_2.png)
 - `tip`, `hint`, `important`
 
-![[Продвинутый-Markdown_callouts_hint.png]]
+![Продвинутый-Markdown_callouts_hint.png](../misc/img/Продвинутый-Markdown_callouts_hint.png)
 - `question`, `help`, `faq`
 
-![[Продвинутый-Markdown_callouts_help.png]]
+![Продвинутый-Markdown_callouts_help.png](../misc/img/Продвинутый-Markdown_callouts_help.png)
 - `warning`, `caution`, `attention`
 
-![[Продвинутый-Markdown_callouts_warning.png]]
+![Продвинутый-Markdown_callouts_warning.png](../misc/img/Продвинутый-Markdown_callouts_warning.png)
 - `failure`, `fail`, `missing`
 
-![[Продвинутый-Markdown_callouts_fail.png]]
+![Продвинутый-Markdown_callouts_fail.png](../misc/img/Продвинутый-Markdown_callouts_fail.png)
 - `danger`, `error`
 
-![[Продвинутый-Markdown_callouts_error.png]]
+![Продвинутый-Markdown_callouts_error.png](../misc/img/Продвинутый-Markdown_callouts_error.png)
 - `bug`
 
-![[Продвинутый-Markdown_callouts_bug.png]]
+![Продвинутый-Markdown_callouts_bug.png](../misc/img/Продвинутый-Markdown_callouts_bug.png)
 - `example`
 
-![[Продвинутый-Markdown_callouts_example.png]]
+![Продвинутый-Markdown_callouts_example.png](../misc/img/Продвинутый-Markdown_callouts_example.png)
 - `quote`, `cite`
 
-![[Продвинутый-Markdown_callouts_quote.png]]
+![Продвинутый-Markdown_callouts_quote.png](../misc/img/Продвинутый-Markdown_callouts_quote.png)
 Еще они умеют сворачиваться: поставь дефис сразу после префикса – и блок будет
 отображен свернутым. Кликни по нему, чтобы развернуть и кликни еще раз, чтобы
 свернуть обратно:
@@ -79,11 +79,12 @@ inline стилизация:
 Результат:
 
 - Свернутый вид
-![[Продвинутый-Markdown_callouts_rolled.png]]
+
+![Продвинутый-Markdown_callouts_rolled.png](../misc/img/Продвинутый-Markdown_callouts_rolled.png)
 
 - Развернутый вид
 
-![[Продвинутый-Markdown_callouts_expanded.png]]
+![Продвинутый-Markdown_callouts_expanded.png](../misc/img/Продвинутый-Markdown_callouts_expanded.png)
 
 
 ## Таблицы
