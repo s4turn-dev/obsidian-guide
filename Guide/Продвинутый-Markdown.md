@@ -21,8 +21,7 @@ inline стилизация:
 
 ## Callouts
 
-Особые блоки: для особых случаев. Используются как цитаты с парой незначительных
-незначительных изменений и, разумеется, поддерживают Markdown:
+Особые блоки: для особых случаев. Используются как цитаты с парой незначительных изменений и, разумеется, поддерживают Markdown:
 
 ```md
 >[!info] **Заголовок**
@@ -32,47 +31,41 @@ inline стилизация:
 ``` 
 
 Результат:
-
->[!info] **Заголовок**
->
-> *Содержание блока.*
->
-
+![[Продвинутый-Markdown_callouts_info_1.png]]
 Самая первая строка становится заголовком блока, а `[!info]` в начале – префикс,
 определяющий, как блок будет выделен (иконка и цвет). Всего есть 12 префиксов:
 
-мейби стоит скриншотами, т.к. не рендерится на гитхабе
-
 - `abstract`, `summary`, `tldr`
->[!summary] 
+
+![[Продвинутый-Markdown_callouts_summary.png]]
 
 - `info`, `todo`
->[!info]
 
+![[Продвинутый-Markdown_callouts_info_2.png]]
 - `tip`, `hint`, `important`
->[!hint]
 
+![[Продвинутый-Markdown_callouts_hint.png]]
 - `question`, `help`, `faq`
->[!help]
 
+![[Продвинутый-Markdown_callouts_help.png]]
 - `warning`, `caution`, `attention`
->[!warning]
 
+![[Продвинутый-Markdown_callouts_warning.png]]
 - `failure`, `fail`, `missing`
->[!fail]
 
+![[Продвинутый-Markdown_callouts_fail.png]]
 - `danger`, `error`
->[!error]
 
+![[Продвинутый-Markdown_callouts_error.png]]
 - `bug`
->[!bug]
 
+![[Продвинутый-Markdown_callouts_bug.png]]
 - `example`
->[!example]
 
+![[Продвинутый-Markdown_callouts_example.png]]
 - `quote`, `cite`
->[!quote]
 
+![[Продвинутый-Markdown_callouts_quote.png]]
 Еще они умеют сворачиваться: поставь дефис сразу после префикса – и блок будет
 отображен свернутым. Кликни по нему, чтобы развернуть и кликни еще раз, чтобы
 свернуть обратно:
@@ -85,9 +78,12 @@ inline стилизация:
 
 Результат:
 
->[!info]- Это свернутый блок
-> Его содержание доступно только в развернутом виде. Занимает меньше места,
-помогает сфокусироваться на главном.
+- Свернутый вид
+![[Продвинутый-Markdown_callouts_rolled.png]]
+
+- Развернутый вид
+
+![[Продвинутый-Markdown_callouts_expanded.png]]
 
 
 ## Таблицы
