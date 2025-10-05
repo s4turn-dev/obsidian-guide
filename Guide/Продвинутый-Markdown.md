@@ -1,5 +1,7 @@
 Фишки и приемы для продвинутых `B)`
 
+К сожалению, некоторые фишки заточены именно под obsidian, поэтому, если хочешь использовать форматирование заметок по максимуму, просто склонируй репозиторий и открой папку с ним как хранилище 😉.
+
 ## Больше выделения, или HTML
 
 Obsidian из коробки поддерживает HTML – язык разметки, на котором пишутся сайты
@@ -24,48 +26,60 @@ inline стилизация:
 Особые блоки: для особых случаев. Используются как цитаты с парой незначительных изменений и, разумеется, поддерживают Markdown:
 
 ```md
->[!info] **Заголовок**
+>[!info] Заголовок
 >
 > *Содержание блока.*
 >
 ``` 
 
 Результат:
-![Продвинутый-Markdown_callouts_info_1.png](../misc/img/Продвинутый-Markdown_callouts_info_1.png)
+>[!info] **Заголовок**
+>
+>*Содержание блока.*
+
 Самая первая строка становится заголовком блока, а `[!info]` в начале – префикс,
 определяющий, как блок будет выделен (иконка и цвет). Всего есть 12 префиксов:
 
 - `abstract`, `summary`, `tldr`
 
-![Продвинутый-Markdown_callouts_summary.png](../misc/img/Продвинутый-Markdown_callouts_summary.png)
+>[!summary]
 
 - `info`, `todo`
 
-![Продвинутый-Markdown_callouts_info_2.png](../misc/img/Продвинутый-Markdown_callouts_info_2.png)
+>[!info]
+
 - `tip`, `hint`, `important`
 
-![Продвинутый-Markdown_callouts_hint.png](../misc/img/Продвинутый-Markdown_callouts_hint.png)
+>[!tip]
+
 - `question`, `help`, `faq`
 
-![Продвинутый-Markdown_callouts_help.png](../misc/img/Продвинутый-Markdown_callouts_help.png)
+>[!question]
+
 - `warning`, `caution`, `attention`
 
-![Продвинутый-Markdown_callouts_warning.png](../misc/img/Продвинутый-Markdown_callouts_warning.png)
+>[!warning]
+
 - `failure`, `fail`, `missing`
 
-![Продвинутый-Markdown_callouts_fail.png](../misc/img/Продвинутый-Markdown_callouts_fail.png)
+>[!failure]
+
 - `danger`, `error`
 
-![Продвинутый-Markdown_callouts_error.png](../misc/img/Продвинутый-Markdown_callouts_error.png)
+>[!error]
+
 - `bug`
 
-![Продвинутый-Markdown_callouts_bug.png](../misc/img/Продвинутый-Markdown_callouts_bug.png)
+>[!bug]
+
 - `example`
 
-![Продвинутый-Markdown_callouts_example.png](../misc/img/Продвинутый-Markdown_callouts_example.png)
+>[!example]
+
 - `quote`, `cite`
 
-![Продвинутый-Markdown_callouts_quote.png](../misc/img/Продвинутый-Markdown_callouts_quote.png)
+>[!quote]
+
 Еще они умеют сворачиваться: поставь дефис сразу после префикса – и блок будет
 отображен свернутым. Кликни по нему, чтобы развернуть и кликни еще раз, чтобы
 свернуть обратно:
@@ -80,11 +94,8 @@ inline стилизация:
 
 - Свернутый вид
 
-![Продвинутый-Markdown_callouts_rolled.png](../misc/img/Продвинутый-Markdown_callouts_rolled.png)
-
-- Развернутый вид
-
-![Продвинутый-Markdown_callouts_expanded.png](../misc/img/Продвинутый-Markdown_callouts_expanded.png)
+>[!info]- Это свернутый блок
+>Его содержание доступно только в развернутом виде. Занимает меньше места, помогает сфокусироваться на главном.
 
 
 ## Таблицы
