@@ -28,7 +28,7 @@ STEM-студенту не обойтись без формул. На помощ
 > $$a_{11}+a_{12}+a_{21}+a_{22}$$
 
 - Дроби: `$I = \frac{U}{R}$` --> $I = \frac{U}{R}$
-- Греческие буквы: `$\alpha, \beta, \Alpha, \Beta$` --> $\alpha, \beta, \Alpha, \Beta$
+- Греческие буквы: `$\lambda, \gamma, \Lambda, \Gamma$` --> $\lambda, \gamma, \Lambda, \Gamma$
 - The GOAT -- троеточие: `$\dots$` --> $\dots$
 
 
