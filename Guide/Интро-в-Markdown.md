@@ -130,6 +130,5 @@ Markdown создан упростить тебе жизнь, а не услож
 
 Чего-то не хватает? Что-то было непонятно? Остались вопросы?
 
-- Спроси в (чате)[ссылка на тг чат гайда] ;
-- Или можешь [открыть issue](https://github.com/s4turn-dev/obsidian-guide/issues/new) со своим вопросом.
-
+- Спроси в [чате](https://t.me/+rLsgrAwi_b1mYzli),
+- или можешь [открыть issue](https://github.com/s4turn-dev/obsidian-guide/issues/new) со своим вопросом.
