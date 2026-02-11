@@ -43,7 +43,7 @@ Obsidian решает все эти проблемы, превращая кон�
 
 <details>
   <summary>Windows</summary>
-  <ul><li>1. lol</li><li>2. kek</li></ul>  
+  
   1. [Скачать](https://github.com/obsidianmd/obsidian-releases/releases/download/v1.8.10/Obsidian-1.8.10.exe) установщик  
   2. Запустить установщик и следовать инструкциям  
   3. После установки, открыть Obsidian
